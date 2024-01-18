@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.16,
-          "width": 1.25
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -119,9 +119,9 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.15239999999999998,
-        "min_connection": 0.15239999999999998,
-        "min_copper_edge_clearance": 0.39999999999999997,
+        "min_clearance": 0.08889999999999999,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.19999999999999998,
         "min_hole_clearance": 0.3,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -130,10 +130,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15239999999999998,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.6,
+        "min_through_hole_diameter": 0.19999999999999998,
+        "min_track_width": 0.08889999999999999,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -426,7 +426,7 @@
     ]
   },
   "meta": {
-    "filename": "Assignment 2.kicad_pro",
+    "filename": "layout.kicad_pro",
     "version": 1
   },
   "net_settings": {

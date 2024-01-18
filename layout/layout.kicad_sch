@@ -9,6 +9,158 @@
   )
 
   (lib_symbols
+    (symbol "Connector:Conn_01x03_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x03_Pin" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x03, script generated" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x03_Pin_1_1"
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 0.8636 -2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0.8636 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 2.54)
+            (xy 0.8636 2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 2.667) (end 0 2.413)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 2.54 180) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Connector:Conn_01x03_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x03_Socket" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x03, script generated" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x03_Socket_1_1"
+        (arc (start 0 -2.032) (mid -0.5058 -2.54) (end 0 -3.048)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy -0.508 -2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy -0.508 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 2.54)
+            (xy -0.508 2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 0.508) (mid -0.5058 0) (end 0 -0.508)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 3.048) (mid -0.5058 2.54) (end 0 2.032)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 2.54 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:USB_C_Receptacle_USB2.0_16P" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 22.225 0)
         (effects (font (size 1.27 1.27)))
@@ -1747,7 +1899,7 @@
     (stroke (width 0) (type default))
     (uuid 64b1cfc2-1aad-4ae6-9ef0-90898c73434a)
   )
-  (wire (pts (xy 41.91 129.54) (xy 55.88 129.54))
+  (wire (pts (xy 52.07 129.54) (xy 55.88 129.54))
     (stroke (width 0) (type default))
     (uuid 6530934e-7727-436e-807b-78962c2755be)
   )
@@ -2061,33 +2213,21 @@
     (uuid fba33dfb-ab80-431d-9e1c-7f90a16c8c17)
   )
 
-  (label "DATA2" (at 212.09 45.72 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 00d24ad2-131c-4ad2-8eb3-aa57ec410b99)
-  )
   (label "RED_IN" (at 97.79 179.07 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 141ae151-9277-4340-9a4c-e008961439e6)
-  )
-  (label "DATA2" (at 41.91 129.54 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1551a25f-2909-4f1b-bfbd-530dc390639b)
   )
   (label "RED_IN" (at 125.73 133.35 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1af0dde6-0184-4b4f-9718-e76e72f0e827)
   )
-  (label "DATA3" (at 52.07 132.08 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 1b983899-a0ec-43fa-b1ea-d8e53ac81093)
-  )
   (label "BLUE_OUT" (at 143.51 123.19 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1ba55ee3-1f86-4130-b493-a48fc81916e9)
   )
-  (label "DATA1" (at 212.09 43.18 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 2029b607-26c2-4398-adc1-a69b7533289d)
+  (label "2V1A" (at 97.79 182.88 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 28c54567-1600-459b-b719-50e4a58bf514)
   )
   (label "GREEN_IN" (at 124.46 128.27 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2125,13 +2265,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 72d6b74d-3815-46d3-b1fe-72952f75d4de)
   )
-  (label "DATA1" (at 52.07 127 90) (fields_autoplaced)
+  (label "3V1A" (at 99.06 99.06 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 90e976b4-40e3-4ec3-85f5-43e406ec7b96)
+    (uuid 7b94efc9-bf06-4384-ad63-2cbd55d817cb)
   )
   (label "BLUE_IN" (at 99.06 91.44 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bc6c056e-6d38-4eda-8b47-1e7c48e78ae0)
+  )
+  (label "3V1A" (at 97.79 140.97 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ca74598f-b257-46de-adcd-25ef4ea60a68)
   )
   (label "5V, 2A" (at 97.79 35.56 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2144,10 +2288,6 @@
   (label "BLUE_IN" (at 125.73 123.19 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e96de7c1-84ed-436b-994b-19ff6683f569)
-  )
-  (label "DATA3" (at 212.09 48.26 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fb33b2d0-2397-4ef3-88a4-2fd8e350dd21)
   )
 
   (symbol (lib_id "power:GND") (at 204.47 105.41 0) (unit 1)
@@ -2167,7 +2307,7 @@
     )
     (pin "1" (uuid f98a17b4-73e0-4a40-b239-4c54b3948a99))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR028") (unit 1)
         )
@@ -2192,7 +2332,7 @@
     )
     (pin "1" (uuid f61af75c-3478-4ef6-a281-1cd49ed812c7))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR08") (unit 1)
         )
@@ -2221,7 +2361,7 @@
     (pin "1" (uuid 243d75f5-de87-4164-941c-ce94fac65427))
     (pin "2" (uuid 7517e753-636f-4d76-9745-1190601facc7))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C13") (unit 1)
         )
@@ -2238,7 +2378,7 @@
     (property "Value" "10K" (at 72.39 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 71.12 173.99 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 71.12 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 71.12 173.99 0)
@@ -2250,7 +2390,7 @@
     (pin "1" (uuid f950e321-7207-4c88-aa27-f269e9659fd3))
     (pin "2" (uuid 46fbec3e-3949-49b1-9587-8d9c39d43e6b))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R14") (unit 1)
         )
@@ -2267,7 +2407,7 @@
     (property "Value" "105K" (at 29.21 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 35.56 53.34 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 35.56 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 35.56 53.34 0)
@@ -2279,7 +2419,7 @@
     (pin "2" (uuid 0d662b81-c621-4df5-8258-6ac465d1f24b))
     (pin "1" (uuid 64b02361-88c2-4db6-8608-9eae9c22e94a))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R4") (unit 1)
         )
@@ -2304,7 +2444,7 @@
     )
     (pin "1" (uuid 1dcfd959-c3b6-4156-9c25-252f690df080))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR06") (unit 1)
         )
@@ -2321,7 +2461,7 @@
     (property "Value" "300R" (at 60.96 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 60.96 87.63 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 60.96 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 60.96 87.63 0)
@@ -2333,7 +2473,7 @@
     (pin "1" (uuid eda60432-1491-49eb-be2b-77101a4c8949))
     (pin "2" (uuid dc179cdd-7f6f-4757-864b-a6f1c44e327e))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R8") (unit 1)
         )
@@ -2350,7 +2490,7 @@
     (property "Value" "0.1uF" (at 63.5 31.75 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 62.23 33.9852 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 62.23 33.9852 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 66.04 33.02 0)
@@ -2362,7 +2502,7 @@
     (pin "1" (uuid dcf69c47-361f-4a44-adc8-89463384863e))
     (pin "2" (uuid b68a82ce-0119-4dd1-8506-6f647379b234))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C5") (unit 1)
         )
@@ -2379,7 +2519,7 @@
     (property "Value" "22uF" (at 74.93 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 78.4352 43.18 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 78.4352 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 39.37 0)
@@ -2391,7 +2531,7 @@
     (pin "1" (uuid 194ef00e-16ae-42ad-a078-3569ea1f966e))
     (pin "2" (uuid 803b219a-bfd5-4e85-aaf1-624889ed46c4))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C6") (unit 1)
         )
@@ -2408,7 +2548,7 @@
     (property "Value" "10K" (at 157.48 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.94 33.02 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 154.94 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.94 33.02 0)
@@ -2420,7 +2560,7 @@
     (pin "1" (uuid 75871954-3a4f-4214-afce-4c089850026e))
     (pin "2" (uuid 1b856764-4064-4c18-b45a-92d6237caf62))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R2") (unit 1)
         )
@@ -2437,7 +2577,7 @@
     (property "Value" "22uF" (at 91.44 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 84.7852 43.18 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 84.7852 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 83.82 39.37 0)
@@ -2449,7 +2589,7 @@
     (pin "1" (uuid 08217afa-e42e-43c3-93c0-8f402623fcc3))
     (pin "2" (uuid 452c155c-e004-4944-89a5-342c49dea9c2))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C7") (unit 1)
         )
@@ -2478,7 +2618,7 @@
     (pin "1" (uuid 853ae7ac-8842-453f-9cf9-727fc618eae7))
     (pin "2" (uuid 7fb568fa-d03b-4b57-a07a-6ee116da42c2))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "L2") (unit 1)
         )
@@ -2495,7 +2635,7 @@
     (property "Value" "0.1uF" (at 29.21 38.1 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 26.9748 36.83 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 26.9748 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 27.94 40.64 0)
@@ -2507,7 +2647,7 @@
     (pin "1" (uuid bfe6e02d-7217-4796-9f84-fd8cf88a6e31))
     (pin "2" (uuid e6a0e344-1831-4ea1-a6e7-f515d63e1729))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C4") (unit 1)
         )
@@ -2521,10 +2661,10 @@
     (property "Reference" "D7" (at 114.3 132.08 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "RB070mm" (at 114.3 134.62 90)
+    (property "Value" "D0.7V" (at 114.3 134.62 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Library:SODFL3617X108N" (at 111.76 133.35 0)
+    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 111.76 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb070mm-30tftr-e.pdf" (at 111.76 133.35 0)
@@ -2533,7 +2673,7 @@
     (property "Sim.Device" "D" (at 111.76 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "" (at 111.76 133.35 0)
+    (property "Sim.Pins" "1=K 2=A" (at 111.76 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "RB070MM-30TFTR" (at 111.76 133.35 0)
@@ -2542,7 +2682,7 @@
     (pin "1" (uuid 7b9e4840-a843-433f-84b1-15f20b932c09))
     (pin "2" (uuid 8839f425-c0db-4af6-a89a-9123520480bf))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "D7") (unit 1)
         )
@@ -2559,7 +2699,7 @@
     (property "Value" "10nF" (at 60.96 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 68.2752 184.15 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 68.2752 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 67.31 180.34 0)
@@ -2571,7 +2711,7 @@
     (pin "1" (uuid dc5cd3a5-d778-47b7-aa15-03046479e6f5))
     (pin "2" (uuid 083bfbd7-1949-482a-a8d1-30cdf55beff7))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C10") (unit 1)
         )
@@ -2588,7 +2728,7 @@
     (property "Value" "10K" (at 72.39 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 71.12 127 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 71.12 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 71.12 127 0)
@@ -2600,7 +2740,7 @@
     (pin "1" (uuid 5b1ce08a-61d3-437c-8d56-d1bbdd5fccff))
     (pin "2" (uuid ce083c80-c075-4d61-9829-825de67cc8ca))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R16") (unit 1)
         )
@@ -2625,7 +2765,7 @@
     )
     (pin "1" (uuid 76f5659a-805a-4da2-928b-7b7bab803061))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR019") (unit 1)
         )
@@ -2650,7 +2790,7 @@
     )
     (pin "1" (uuid 8a44377a-8083-4fc2-9f2b-0143eb0ce063))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR026") (unit 1)
         )
@@ -2675,7 +2815,7 @@
     )
     (pin "1" (uuid 76f3cea8-0648-4c1e-a20a-c58041fb3169))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR023") (unit 1)
         )
@@ -2700,7 +2840,7 @@
     )
     (pin "1" (uuid 9259b930-b77a-499e-91e4-914020d96c40))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR011") (unit 1)
         )
@@ -2732,7 +2872,7 @@
     (pin "5" (uuid 1e7d0cb6-1412-481c-84fb-d1a6ad06bd53))
     (pin "3" (uuid 0bdfeae6-807a-4652-9b6f-aee7024d4b55))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "U1") (unit 1)
         )
@@ -2749,7 +2889,7 @@
     (property "Value" "1R" (at 100.33 170.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 97.79 168.91 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 97.79 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 168.91 0)
@@ -2761,7 +2901,7 @@
     (pin "1" (uuid ff2361fb-109f-4a68-a2be-90bd3fbf8d3b))
     (pin "2" (uuid fe5477c3-6699-447f-8142-76ae634146a9))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R10") (unit 1)
         )
@@ -2786,7 +2926,7 @@
     )
     (pin "1" (uuid 5dabc75c-17f0-437a-9b4f-960b6d7673ad))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR031") (unit 1)
         )
@@ -2811,7 +2951,7 @@
     )
     (pin "1" (uuid b39e33c2-841a-46d4-a517-86220de6d62e))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR018") (unit 1)
         )
@@ -2836,9 +2976,39 @@
     )
     (pin "1" (uuid b0c1ddd2-e217-42a8-b803-8131819ae007))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR027") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x03_Socket") (at 217.17 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 493456e0-8c5b-4697-a4f0-cdeec5b28d0b)
+    (property "Reference" "J1" (at 218.44 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x03_Socket" (at 218.44 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 217.17 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf" (at 217.17 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "B3B-XH-A" (at 217.17 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "3" (uuid e8a749e6-56f8-4dce-a903-62e793201359))
+    (pin "2" (uuid 57e7fec3-b731-40eb-8cdc-18fe3b69fe8f))
+    (pin "1" (uuid 605712b2-1525-49d1-bb67-3b95c24dbdd7))
+    (instances
+      (project "layout"
+        (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2869,7 +3039,7 @@
     (pin "5" (uuid 4005ebf2-f8d0-42e2-9d19-ab18bdf47d9a))
     (pin "1" (uuid cb754002-a41e-4157-bdf4-084e106d8320))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "U5") (unit 1)
         )
@@ -2905,7 +3075,7 @@
     (pin "5" (uuid 5d8760fb-33f0-4033-a870-4c9bd22597f0))
     (pin "9" (uuid f929db46-757a-4981-8294-9df2d72dbbaa))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "U3") (unit 1)
         )
@@ -2930,7 +3100,7 @@
     )
     (pin "1" (uuid a0c62026-fef8-4cd8-910a-9e9642f3f2e8))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR029") (unit 1)
         )
@@ -2947,7 +3117,7 @@
     (property "Value" "511K" (at 29.21 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 35.56 46.99 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 35.56 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 35.56 46.99 0)
@@ -2959,7 +3129,7 @@
     (pin "1" (uuid e09d0042-2e1b-4d93-bce9-49a9a2ba9db8))
     (pin "2" (uuid 8abb4b03-3cd5-41d2-ac31-37f9c3f7fe04))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R3") (unit 1)
         )
@@ -2988,7 +3158,7 @@
     (pin "1" (uuid 4c6b3d12-2b9b-4e17-9826-8de90da1c5e2))
     (pin "2" (uuid 34db0daf-95ae-40cc-844f-59179dcf1117))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C2") (unit 1)
         )
@@ -3013,7 +3183,7 @@
     )
     (pin "1" (uuid 7a7d54e1-cf66-4312-b4ae-fe243ef45cdb))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR015") (unit 1)
         )
@@ -3083,7 +3253,7 @@
     (pin "34" (uuid 56368225-07e9-4b30-84a1-5ed9011af3ec))
     (pin "33" (uuid 7d7c71e5-15b2-4417-b8bf-4019815bc477))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "U2") (unit 1)
         )
@@ -3119,7 +3289,7 @@
     (pin "5" (uuid 045d508c-563e-41ab-bfc6-5d9fa34c7a43))
     (pin "9" (uuid c4005171-978e-4451-86b0-a8b43daa02c2))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "U4") (unit 1)
         )
@@ -3144,7 +3314,7 @@
     )
     (pin "1" (uuid b5bd5d92-0fd5-4511-bfd1-8e1506db1b9d))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR013") (unit 1)
         )
@@ -3173,7 +3343,7 @@
     (pin "1" (uuid b1f14c6c-3999-4c80-909d-6bf6e2460753))
     (pin "2" (uuid 68fbb153-1033-4900-9a7e-e3c3982f5e94))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "L3") (unit 1)
         )
@@ -3190,7 +3360,7 @@
     (property "Value" "1R" (at 100.33 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 97.79 123.19 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 97.79 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 123.19 0)
@@ -3202,7 +3372,7 @@
     (pin "1" (uuid 683f791f-8512-4886-be24-ae03cb403076))
     (pin "2" (uuid 487b9208-36de-4afc-bff1-ff3ebecf53fa))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R12") (unit 1)
         )
@@ -3231,7 +3401,7 @@
     (pin "2" (uuid 74464fb1-d7b9-4ce9-b5d8-1d4dbbbfdcc2))
     (pin "1" (uuid 9ac7356d-2920-4651-abc4-2c56c67a0787))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "SW1") (unit 1)
         )
@@ -3260,7 +3430,7 @@
     (pin "1" (uuid c273a4e1-c842-40e7-b5e5-6e4e43860341))
     (pin "2" (uuid a0be4085-04a7-4836-bb81-ec7b613422d7))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C1") (unit 1)
         )
@@ -3277,7 +3447,7 @@
     (property "Value" "49.9R" (at 102.87 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 100.33 38.1 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 100.33 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 38.1 0)
@@ -3289,7 +3459,7 @@
     (pin "1" (uuid 7f322443-f26b-423b-ab23-0cd01a5e178e))
     (pin "2" (uuid 26d59e6a-67ff-4687-81f9-426e8a249423))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R5") (unit 1)
         )
@@ -3333,7 +3503,7 @@
     (pin "A4" (uuid 47572176-a210-4922-99b3-1f193b09d37d))
     (pin "A1" (uuid 2560ccce-d0b2-4fc2-9330-c9c96436c33d))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "J3") (unit 1)
         )
@@ -3369,7 +3539,7 @@
     (pin "5" (uuid 16094622-79f0-431e-85d3-1319bddede81))
     (pin "9" (uuid 5e8bccfc-19c5-42db-ac08-584eab296b89))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "U6") (unit 1)
         )
@@ -3394,7 +3564,7 @@
     )
     (pin "1" (uuid ae6c8463-7c42-405b-b386-69084b3202ab))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR01") (unit 1)
         )
@@ -3411,7 +3581,7 @@
     (property "Value" "13.3K" (at 102.87 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 100.33 53.34 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 100.33 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 53.34 0)
@@ -3423,7 +3593,7 @@
     (pin "1" (uuid 05573166-2176-4388-9947-552ede82552f))
     (pin "2" (uuid f9ccb5d9-2546-4c28-b645-849715bca7c0))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R7") (unit 1)
         )
@@ -3452,7 +3622,7 @@
     (pin "2" (uuid 303ee582-9ac2-4adf-bf58-a4b8ff892501))
     (pin "1" (uuid ef389503-5ca1-403c-a181-19247a6dbe09))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "L4") (unit 1)
         )
@@ -3469,7 +3639,7 @@
     (property "Value" "300R" (at 59.69 173.99 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 59.69 176.53 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 59.69 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 59.69 176.53 0)
@@ -3481,7 +3651,7 @@
     (pin "1" (uuid fc3b0a7e-2ed9-425b-96e4-8682eff4d88b))
     (pin "2" (uuid 22c20273-44fd-4866-a61b-d1c2814a47f8))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R9") (unit 1)
         )
@@ -3506,7 +3676,7 @@
     )
     (pin "1" (uuid ee825a62-66f1-4517-8ab8-2c78b0f17784))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR022") (unit 1)
         )
@@ -3531,7 +3701,7 @@
     )
     (pin "1" (uuid a46ed9bd-bb29-4852-a49b-c791ff887a4b))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR017") (unit 1)
         )
@@ -3556,7 +3726,7 @@
     )
     (pin "1" (uuid 335c1a78-711a-4b6f-bebc-8deea901e952))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR04") (unit 1)
         )
@@ -3573,7 +3743,7 @@
     (property "Value" "100K" (at 102.87 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 100.33 46.99 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 100.33 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 46.99 0)
@@ -3585,7 +3755,7 @@
     (pin "1" (uuid 318df2be-a492-489f-bdc4-9d59560b00a0))
     (pin "2" (uuid 5682c63f-25f0-4290-a37e-6b1582fa9ccf))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R6") (unit 1)
         )
@@ -3610,7 +3780,7 @@
     )
     (pin "1" (uuid d987cfc1-7365-4407-ba33-f7769b40677d))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR012") (unit 1)
         )
@@ -3635,7 +3805,7 @@
     )
     (pin "1" (uuid 4bb0f1c6-3df9-4627-8865-da9595332bec))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR02") (unit 1)
         )
@@ -3660,7 +3830,7 @@
     )
     (pin "1" (uuid 814915de-2ea3-4264-8bad-a39292402f4d))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR03") (unit 1)
         )
@@ -3674,10 +3844,10 @@
     (property "Reference" "D2" (at 111.76 177.8 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "RB070mm" (at 111.76 180.34 90)
+    (property "Value" "D0.7V" (at 111.76 180.34 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Library:SODFL3617X108N" (at 109.22 179.07 0)
+    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 109.22 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb070mm-30tftr-e.pdf" (at 109.22 179.07 0)
@@ -3686,7 +3856,7 @@
     (property "Sim.Device" "D" (at 109.22 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "" (at 109.22 179.07 0)
+    (property "Sim.Pins" "1=K 2=A" (at 109.22 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "RB070MM-30TFTR" (at 109.22 179.07 0)
@@ -3695,7 +3865,7 @@
     (pin "1" (uuid a5aa444b-977a-4a5b-9f0d-4d5a10bee2d1))
     (pin "2" (uuid e6cb2849-0560-4df9-9f58-d64b307407c4))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "D2") (unit 1)
         )
@@ -3709,10 +3879,10 @@
     (property "Reference" "D5" (at 114.3 25.4 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "RB070mm" (at 113.03 22.86 90)
+    (property "Value" "D_Small" (at 113.03 22.86 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Library:SODFL3617X108N" (at 115.57 33.02 90)
+    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 115.57 33.02 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb070mm-30tftr-e.pdf" (at 115.57 33.02 90)
@@ -3721,7 +3891,7 @@
     (property "Sim.Device" "D" (at 115.57 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "" (at 115.57 33.02 0)
+    (property "Sim.Pins" "1=K 2=A" (at 115.57 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "RB070MM-30TFTR" (at 115.57 33.02 0)
@@ -3730,7 +3900,7 @@
     (pin "1" (uuid 709d62c3-1f8a-4625-9a27-ffa5a84bcff8))
     (pin "2" (uuid 15ba6548-7c14-43fd-bad8-465538fc7150))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "D5") (unit 1)
         )
@@ -3747,7 +3917,7 @@
     (property "Value" "10nF" (at 62.23 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 69.5452 95.25 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 69.5452 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 68.58 91.44 0)
@@ -3759,7 +3929,7 @@
     (pin "1" (uuid c28cf8e6-d374-424c-8660-7591bd2436dd))
     (pin "2" (uuid 67ca0a43-28a4-4a10-9f9c-9b7cfa78065a))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C9") (unit 1)
         )
@@ -3776,7 +3946,7 @@
     (property "Value" "1R" (at 101.6 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 81.28 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 99.06 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 99.06 81.28 0)
@@ -3788,7 +3958,7 @@
     (pin "1" (uuid 38d14bfe-28db-416d-bd8b-b8e98226fecb))
     (pin "2" (uuid e31fb773-bdd6-476c-9316-66ff02516bbd))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R1") (unit 1)
         )
@@ -3805,7 +3975,7 @@
     (property "Value" "300R" (at 58.42 127 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 58.42 129.54 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 58.42 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 129.54 0)
@@ -3817,9 +3987,39 @@
     (pin "1" (uuid f1686483-4381-4ae8-9c55-d1fdf541ae22))
     (pin "2" (uuid 08b79fda-15e2-4a5c-aedd-a9d0ee72d04f))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 46.99 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c8bc9065-4c8a-4aac-841c-ff670fa21500)
+    (property "Reference" "J2" (at 47.625 121.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x03_Pin" (at 47.625 124.46 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 46.99 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf" (at 46.99 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "B3B-XH-A" (at 46.99 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "3" (uuid 7daedd56-018d-4aee-b9e7-ab13568d26d4))
+    (pin "1" (uuid db73dac0-a447-4760-bf4e-d7b9784b5a71))
+    (pin "2" (uuid c7b76a54-b7bf-49ad-a8a6-5688b40fa5e4))
+    (instances
+      (project "layout"
+        (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3846,7 +4046,7 @@
     (pin "1" (uuid 1ffa7156-7de1-48ce-b649-da97ed105596))
     (pin "2" (uuid 1e654950-575e-4877-af05-1f584dc6b7e1))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "L1") (unit 1)
         )
@@ -3875,7 +4075,7 @@
     (pin "1" (uuid 99d5d96d-154d-448b-b519-f89c2edb33fe))
     (pin "2" (uuid f39216e1-9c68-49f2-a1ef-fb06a4bdd49c))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C11") (unit 1)
         )
@@ -3900,7 +4100,7 @@
     )
     (pin "1" (uuid 51553e87-23ca-4e00-99e6-d3d2d37cc1cc))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR021") (unit 1)
         )
@@ -3917,7 +4117,7 @@
     (property "Value" "5.1K" (at 214.63 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 217.17 102.87 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 217.17 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 217.17 102.87 0)
@@ -3929,7 +4129,7 @@
     (pin "1" (uuid e30b1304-3771-4fcd-bdc3-9229a09a3488))
     (pin "2" (uuid ffd18492-a0f3-4125-81ac-6376afcb7373))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R13") (unit 1)
         )
@@ -3954,7 +4154,7 @@
     )
     (pin "1" (uuid f7d90cfc-e201-4df6-9054-f1ea44aa65cd))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR025") (unit 1)
         )
@@ -3979,7 +4179,7 @@
     )
     (pin "1" (uuid 8527161f-0379-4405-9070-20ec172db2e5))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR030") (unit 1)
         )
@@ -3993,10 +4193,10 @@
     (property "Reference" "D6" (at 109.22 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RB070mm" (at 109.22 33.02 0)
+    (property "Value" "D_Small" (at 109.22 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Library:SODFL3617X108N" (at 110.49 35.56 90)
+    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 110.49 35.56 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb070mm-30tftr-e.pdf" (at 110.49 35.56 90)
@@ -4005,7 +4205,7 @@
     (property "Sim.Device" "D" (at 110.49 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "" (at 110.49 35.56 0)
+    (property "Sim.Pins" "1=K 2=A" (at 110.49 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "RB070MM-30TFTR" (at 110.49 35.56 0)
@@ -4014,7 +4214,7 @@
     (pin "1" (uuid 1bfdd853-42ce-4915-abec-30d745c8e7a2))
     (pin "2" (uuid 535293f7-e8c3-4376-8894-25d21e6f410a))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "D6") (unit 1)
         )
@@ -4039,7 +4239,7 @@
     )
     (pin "1" (uuid d3304ca5-4a40-4474-88e7-d94ea24270be))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR09") (unit 1)
         )
@@ -4056,7 +4256,7 @@
     (property "Value" "5.1K" (at 201.93 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 204.47 102.87 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 204.47 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.47 102.87 0)
@@ -4068,7 +4268,7 @@
     (pin "1" (uuid e9b94466-099f-477f-9a29-60cb22801e4d))
     (pin "2" (uuid f6721e66-6183-48df-8211-fd7d375b4622))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R15") (unit 1)
         )
@@ -4093,7 +4293,7 @@
     )
     (pin "1" (uuid b1cfbbee-fb5d-4b75-955b-c804da0d25aa))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR07") (unit 1)
         )
@@ -4118,7 +4318,7 @@
     )
     (pin "1" (uuid e2dbd227-5cb3-46b8-abdf-01548b20d3d4))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR016") (unit 1)
         )
@@ -4135,7 +4335,7 @@
     (property "Value" "10K" (at 72.39 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 71.12 85.09 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 71.12 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 71.12 85.09 0)
@@ -4147,7 +4347,7 @@
     (pin "1" (uuid 9bd34927-86b1-4c38-8cfd-a550648c5efb))
     (pin "2" (uuid d76183bf-7c07-4dec-93cf-e53656204427))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "R17") (unit 1)
         )
@@ -4172,7 +4372,7 @@
     )
     (pin "1" (uuid 32cf884e-3395-4d16-92d9-6a913844af70))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR020") (unit 1)
         )
@@ -4189,7 +4389,7 @@
     (property "Value" "75pF" (at 99.06 46.99 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 92.4052 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 92.4052 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 91.44 46.99 0)
@@ -4201,7 +4401,7 @@
     (pin "1" (uuid 2e09906a-aa3e-42da-82ce-13c14bb7376a))
     (pin "2" (uuid 890632f3-3506-4bd6-b53e-4496770feca7))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C8") (unit 1)
         )
@@ -4235,7 +4435,7 @@
     (pin "6" (uuid bfdb4ac1-b5b5-4ad5-a817-166237a4bf77))
     (pin "7" (uuid c12ebee9-5814-41a3-8def-4f6f55f223c3))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "D4") (unit 1)
         )
@@ -4252,7 +4452,7 @@
     (property "Value" "1uF" (at 158.75 44.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 153.9748 39.37 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 153.9748 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.94 43.18 0)
@@ -4264,7 +4464,7 @@
     (pin "1" (uuid d1cc4d0d-5d6d-405c-9fd7-c7f57d73bafc))
     (pin "2" (uuid 84c3116f-3a4d-4d28-9d0f-7b1a60f47add))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C3") (unit 1)
         )
@@ -4281,7 +4481,7 @@
     (property "Value" "1uF" (at 182.88 22.86 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 187.6552 27.94 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 187.6552 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 186.69 24.13 0)
@@ -4293,7 +4493,7 @@
     (pin "1" (uuid 51f8a92c-b80c-4cd4-8ec8-1ca2a63d4abc))
     (pin "2" (uuid d528e2d1-fbf9-416a-afe1-9cd74082ca01))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C14") (unit 1)
         )
@@ -4307,10 +4507,10 @@
     (property "Reference" "D10" (at 115.57 93.98 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "RB070mm" (at 115.57 96.52 90)
+    (property "Value" "D0.7V" (at 115.57 96.52 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Library:SODFL3617X108N" (at 113.03 95.25 0)
+    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 113.03 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb070mm-30tftr-e.pdf" (at 113.03 95.25 0)
@@ -4319,7 +4519,7 @@
     (property "Sim.Device" "D" (at 113.03 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "" (at 113.03 95.25 0)
+    (property "Sim.Pins" "1=K 2=A" (at 113.03 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "RB070MM-30TFTR" (at 113.03 95.25 0)
@@ -4328,7 +4528,7 @@
     (pin "1" (uuid 20547bc1-2c3b-461c-a4f0-e41c28687a65))
     (pin "2" (uuid 4069493e-7b06-42e3-ae41-b8d50fee2ba8))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "D10") (unit 1)
         )
@@ -4345,7 +4545,7 @@
     (property "Value" "10nF" (at 62.23 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 68.2752 137.16 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 68.2752 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 67.31 133.35 0)
@@ -4357,7 +4557,7 @@
     (pin "1" (uuid 750b31b2-27f0-482e-9036-9ff83b75a2fd))
     (pin "2" (uuid 449a79eb-7ea2-4d79-8f7b-573fe21ed192))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "C12") (unit 1)
         )
@@ -4382,7 +4582,7 @@
     )
     (pin "1" (uuid d2d855c9-3ac0-4751-b276-08e55a498b05))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR024") (unit 1)
         )
@@ -4411,7 +4611,7 @@
     (pin "2" (uuid f45cd32c-52cc-46a7-b66e-4ac0be582eba))
     (pin "1" (uuid b68ffd60-254d-4a9f-bcdb-9a8aa42177d7))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "SW2") (unit 1)
         )
@@ -4436,7 +4636,7 @@
     )
     (pin "1" (uuid 7cdb36c9-d1e5-416c-abd9-d8f9632e95de))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR05") (unit 1)
         )
@@ -4461,7 +4661,7 @@
     )
     (pin "1" (uuid 170d7cda-ba7b-480f-9307-c42107967a04))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR010") (unit 1)
         )
@@ -4486,7 +4686,7 @@
     )
     (pin "1" (uuid 08be4025-0421-4d4c-bdc3-25c4fa6caf0a))
     (instances
-      (project "Assignment 2"
+      (project "layout"
         (path "/352d7abe-fc72-4473-8b68-62eecf44f496"
           (reference "#PWR014") (unit 1)
         )
